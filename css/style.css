@@ -1,0 +1,86 @@
+* { 
+   margin:0;
+   padding:0;
+   }
+
+
+ .top-bar{
+    background-color: rgba(0, 167, 126, 1.00);
+    
+ }
+ .icons i {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding: 4PX;
+ }
+ .number {
+    color: whitesmoke;
+    margin: 0 0 0 auto;
+  display: block;
+  width: 290px;
+
+  
+ }
+ .banner-inner-text {
+    margin-top: 130px;
+ }
+ .banner-text {
+    color: whitesmoke;
+ }
+ .header{
+ 
+   
+  
+ }
+ #myVideo {
+   background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-image: none;
+    margin: auto;
+    position: absolute;
+    z-index: -1; 
+   top: 50%; left: 50%; 
+   transform: translate(-50%, -50%); visibility: visible;
+    opacity: 1; 
+    width:100%;  
+    height: auto;
+ }
+ .manu-area {
+   /* background-color: rgb(87, 81, 81, 0.9); */
+   background-color: #044856;
+   opacity: 0.9;
+   
+ }
+.main-logo img{
+   max-width: 400px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+ .navbar {
+   padding: 0rem;
+   margin-bottom: 2rem;
+ }
+ .navbar-toggler-right{
+   float: right;
+ }
+ .dropdown .dropdown-menu {
+   border-radius: 0;
+ }
+ ul li a {
+   font-family: 'Raleway',Sans-Serif;
+   font-weight: 400;
+
+ }
+ 
+ /* Medium devices (tablets, 768px and up) 
+ The navbar toggle appears at this breakpoint */
+ @media (min-width: 768px) {
+   .dropdown:hover .dropdown-menu {
+     display: block;
+     margin-top: 0;
+     border-radius: 0;
+   }
+ }
+ 
